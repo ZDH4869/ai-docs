@@ -1,0 +1,24 @@
+{
+  "name": "ai-evolution-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion render AiEvolution out/ai-evolution.mp4",
+    "still": "remotion still AiEvolution --scale=0.25 --frame=120 out/frame.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/lambda": "latest",
+    "@remotion/media-utils": "latest",
+    "@remotion/renderer": "latest",
+    "remotion": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}

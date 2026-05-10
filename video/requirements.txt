@@ -1,0 +1,14 @@
+Node.js >= 20
+npm >= 10
+Remotion CLI (installed through npm dependencies)
+Google Chrome or Remotion Chrome Headless Shell for rendering
+Windows/macOS/Linux with FFmpeg support through Remotion renderer
+
+Install project dependencies:
+npm install
+
+Preview:
+npm run dev
+
+Render MP4:
+npm run build
